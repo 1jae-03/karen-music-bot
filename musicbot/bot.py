@@ -1688,6 +1688,7 @@ class MusicBot(discord.Client):
 
         await self.send_typing(channel)
         info = await self.downloader.extract_info(player.playlist.loop, playlist_url, download=False, process=False)
+        
 
         if not info:
             raise exceptions.CommandError(self.str.get(
