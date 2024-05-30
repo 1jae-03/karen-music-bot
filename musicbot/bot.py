@@ -1820,6 +1820,8 @@ class MusicBot(discord.Client):
             - yahoo (yh)
         - number: return a number of video results and waits for user to choose one
           - defaults to 3 if unspecified
+
+          
           - note: If your search query starts with a number,
                   you must put your query in quotes
             - ex: {command_prefix}search 2 "I ran seagulls"
