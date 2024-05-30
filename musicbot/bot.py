@@ -1945,6 +1945,8 @@ class MusicBot(discord.Client):
         Usage:
             {command_prefix}np
 
+            
+
         Displays the current song in chat.
         """
 
