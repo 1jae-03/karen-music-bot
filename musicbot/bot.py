@@ -1767,6 +1767,8 @@ class MusicBot(discord.Client):
             fixg(wait_per_song * num_songs))
         )
 
+        print("a")
+
         if not songs_added:
             basetext = self.str.get('cmd-play-playlist-maxduration',
                                     "No songs were added, all songs were over max duration (%ss)") % permissions.max_song_length
