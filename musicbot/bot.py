@@ -1751,6 +1751,8 @@ class MusicBot(discord.Client):
 
         await self.safe_delete_message(busymsg)
 
+
+        
         songs_added = len(entries_added)
         tnow = time.time()
         ttime = tnow - t0
